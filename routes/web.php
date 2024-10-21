@@ -81,3 +81,9 @@ route::get('contact_us',[HomeController::class, 'contact_us']);
 
 
 
+//Reminder Google Calender
+route::get('/reminder_calender',[AdminController::class, 'reminder_calender'])  -> middleware(['auth','admin']);
+
+
+
+

@@ -32,6 +32,13 @@
                 <a href=" {{  url('all_messages') }}"> <i class="icon-home"></i>Messages </a>
               </li>
 
+               <!-- Reminder Google Calender-->
+              <li >
+                <a href=" {{  url('reminder_calender') }}"> <i class="icon-home"></i>Reminder </a>
+              </li>
+
+              
+
              
       </ul>
     </nav>

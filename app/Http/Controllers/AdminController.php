@@ -226,6 +226,14 @@ class AdminController extends Controller
     }  
     */
 
+    public function reminder_calender()
+    {
+        
+        return view('admin.reminder_calender');
+
+    }  
+
+
 
 
 
